@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>CSharpOneApp</RootNamespace>
+        <LangVersion>1</LangVersion>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    </PropertyGroup>
+    <ItemGroup>
+        <Compile Include="..\csharp1-style\Order.cs" Link="Order.cs" />
+        <Compile Include="..\csharp1-style\OrderProcessor.cs" Link="OrderProcessor.cs" />
+    </ItemGroup>
+</Project>
